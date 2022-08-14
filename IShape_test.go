@@ -10,7 +10,7 @@ func TestShapes(t *testing.T) {
 		assert.Implements(t, new(IShape), NewRectangle(10.0, 2.0))
 	})
 
-	//t.Run("check if the square implements from IShape", func(t *testing.T) {
-	//	assert.Implements(t, new(IShape), NewSquare(10.0))
-	//})
+	t.Run("check if the square implements from IShape", func(t *testing.T) {
+		assert.Implements(t, new(IShape), NewSquare(10.0))
+	})
 }
