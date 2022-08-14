@@ -42,7 +42,6 @@ func TestNewRectangle(t *testing.T) {
 }
 
 func TestFindPerimeter(t *testing.T) {
-
 	t.Run("check perimeter when length is equal to 1", func(t *testing.T) {
 		assert.Equal(t, 10.0, NewRectangle(1, 4.0).FindPerimeter())
 	})

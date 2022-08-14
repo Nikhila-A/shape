@@ -9,6 +9,7 @@ so that I can calculate its perimeter and area.
 ## Environment
 
 * go 1.19
+* testify v1.8.0
 
 ## Test Instructions
 
